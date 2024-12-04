@@ -1,3 +1,6 @@
+# Made by ZV800
+# https://github.com/zv8001/discord_webhook_proxy/tree/main
+
 from flask import Flask, request, jsonify, abort
 import requests
 from pydantic import BaseModel, HttpUrl
