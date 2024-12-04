@@ -1,4 +1,5 @@
-#Made by ZV800
+# Made by ZV800
+# https://github.com/zv8001/discord_webhook_proxy/tree/main
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, HttpUrl
