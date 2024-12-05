@@ -9,7 +9,6 @@ import json
 
 app = Flask(__name__)
 
-# Discord Webhook API URL template
 DISCORD_API_URL = 'https://discord.com/api/webhooks/{webhook_id}/{webhook_token}'
 
 # Define models with Pydantic to validate incoming data
